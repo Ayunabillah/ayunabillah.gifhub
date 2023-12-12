@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Portfolio Website</title>
+
+    <style>
+body {
+  background-color: #b3d9ff;
+}
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 250%;
+            font-family: 'Courier New';
+            background-color: #3366cc;
+            border: 2px solid #003366;
+            border-radius: 12px;
+            padding: 5px;
+        }
+
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #003366;
+            background-color: #4da6ff;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 25px;
+            font-family: 'Times New Roman';
+            color:  white
+            
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #0066cc;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #003399;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            
+        }
+
+    </style>
+</head>
+<h1>Embracing the Journey: My Hobbies</h1>
+<body>
+    <!-- Tabbed content -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'About Me' )">About Me</button>
+    <button class="tablinks" onclick="openCity(event, 'My resume')">My resume</button>
+    <button class="tablinks" onclick="openCity(event, 'Favourite Movies')">Favourite Movies</button>
+    <button class="tablinks" onclick="openCity(event, 'Favourite Songs')">Favourite Songs</button>
+   
+
+</div>
+
+<div id="About Me"; class="tabcontent">
+
+    <h3 style="color:white; text-align:justify; font-size:200%; font-family:'garamond'; background-color:#0099cc">About Me</h3>
+<br>
+     <img src="https://i.pinimg.com/736x/f0/93/d3/f093d3cb2bc6284ece6f1cceb5701d2a.jpg" alt="my picture" style="width:300px; height:300px; border-radius: 8px;">
+
+     <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+     <br>
+    <p style="color:white; text-align:justify; font-size:150%; font-family:'garamond'; background-color:#0099cc">On behalf of readers, thank you for visiting my little site on the internet. My name is Ayu Nabillah Binti Salihuddin. As a dedicated learner, I'm always willing to share my experiences with others and continue to learn new things. I'm studying a Bachelor of Information Science (Hons) in Library Management at At Universiti Teknologi Mara. My university life has been a thrilling rollercoaster ride with several cups of coffee, insightful lectures and late-night study sessions. Like a lot of you, I'm trying to strike a balance between the responsibilities of my studies and the joys and struggles of being a student. I've had the honour of studying under some of the best instructors and mentors in the field of education, who have helped me understand the complex subject matter of my course. </p>
+<p style="color:white; text-align:justify; font-size:150%; font-family:garamond; background-color:#0099cc"> The pleasant mix of viewing movies and losing myself in the world of music is one of my favorite things to do. I can explore a wide range of genres through the cinematic experience. In addition, I take comfort and happiness from the variety of music that surrounds me on a daily basis. The symphony of music and movies enhances my free time whether I'm just relaxing. </p>
+<br>
+<p style="color:white; text-align:justify; font-size:150%; font-family:garamond; background-color:#0099cc"> Let's Interact!
+<br>
+<p style="color:white; text-align:justify; font-size:150%; background-color:#0099cc; font-family:'garamond';"> In order to create a student community that can encourage and support one another, I'm excited to hear from you. Do not hesitate to ask questions or share your own hobbies with me. </p>
+<br>
+<p style="color:white; text-align:justify; font-size:150%; background-color:#0099cc; font-family:'garamond';"> You can contact me using my gmail (ayunabillah0111@gmail.com) <a href="mailto:ayunabillah0111@gmail.com">Send email</a> </p>
+<br>
+<br>
+<br>
+<p style="color: darkblue; text-align: center; font-size: 150%;">I created this site as part of IML470.</p>
+</div>
+
+<div id="My resume" class="tabcontent">
+    <br>
+<img src="https://i.pinimg.com/736x/af/02/1c/af021ccd51a2e6ca81d582a3346bef58.jpg" alt="my picture" style="width:300px; height:300px; border-radius: 8px;">
+
+     <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+    <div class="resume-section">
+        <h2 style="color: #333; font-size: 150%;">Contact Information</h2>
+        <p style="color: #333; font-size: 120%;">
+        <p style="color: #333; font-size: 120%;"> AYU NABILLAH BINTI SALIHUDDIN</p>
+        <p style="color: #003366; font-size: 120%;">
+        Email: <a href="mailto:ayunabillah0111@gmail.com" style="color: #333;">ayunabillah0111@gmail.com</a></p>
+        <p style="color: #333; font-size: 120%;">Phone: 019-6941199</p>
+    </div>
+     <div class="resume-section">
+        <h2 style="color: #333; font-size: 150%;">Education</h2>
+        <div class="education-item">
+            <h3 style="color: #333; font-size: 120%;">Sijil Pelajaran Malaysia</h3>
+            <p style="color: #333; font-size: 120%;">SMK Taman Kota Kulai</p>
+            <p style="color: #333; font-size: 120%;">Graduation Year: 2018</p>
+            <h3 style="color: #333; font-size: 120%;">Sijil Tinggi Pelajaran Malaysia</h3>
+            <p style="color: #333; font-size: 120%;">SMK Tunku Abdul Rahman Putra</p>
+            <p style="color: #333; font-size: 120%;">Graduation Year: 2020</p>
+        </div>
+    </div>
+    
+<div class="resume-section">
+    <h2 style="color: #333; font-size: 150%;">Experience</h2>
+    <div class="experience-item">
+       <h3 style="color: #333; font-size: 120%;">Production Clerk</h3>
+            <p style="color: #333; font-size: 120%;">Hybrionic (M) Sdn. Bhd</p>
+            <p style="color: #333; font-size: 120%;">1/8/2020 - 31/1/2023</p>
+    </div>
+
+    <style>
+        ol {
+            background: #3399ff;
+            padding: 20px;
+        }
+
+        ol li {
+            background: #cce5ff;
+            color: darkblue;
+            margin: 5px;
+        }
+    </style>
+            <ol>
+                <li>Notify relevant teams when inventory levels of raw material, work in progress, and finished products</li>
+                <li>Collaborate with the procurement department to ensure the availability of necessary materials.</li>
+                <li>Assist in scheduling and coordinating production tasks and timelines</li>
+            </ol>
+        </div>
+
+        <div class="footer">
+            <p style="color: darkblue; text-align: center; font-size: 150%;">I created this site as part of IML470.</p>
+        </div>
+
+</div>
+
+<div id="Favourite Movies" class="tabcontent">
+    <h3 style="color:white; text-align:justify; font-size:200%; font-family:'garamond'; background-color:#3366cc">Favourite Movies </h3>
+<style>
+table {
+  font-family: garamond, sans-serif;
+  font-size: 200%;
+  color: #003366;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ccccff;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Movies</th>
+    <th>Genre</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Princess Mononoke</td>
+    <td>Action,Adventure</td>
+    <td>Japan</td>
+  </tr>
+  <tr>
+    <td>Spirited Away</td>
+    <td>Adventure,Fantasy</td>
+    <td>Japan</td>
+  </tr>
+  <tr>
+    <td>Train To Busan</td>
+    <td>Action,Suspense,Thriller</td>
+    <td>South Korea</td>
+  </tr>
+</table>
+<br>
+<br>
+
+<ul>
+  <li style="color:#003366; text-align:justify; font-size:150%; font-family:'verdana'">Princess Mononoke </li>
+<br>
+<br>
+  <img src="https://i.pinimg.com/originals/a9/23/24/a923247eabc34910d82e07b0fc93c13d.gif" alt="princess Mononoke" style="width:700px;height:300px;border-radius: 8px;">
+
+     <br>
+<br>
+  <p style="color:white; text-align:justify; font-size:150%; font-family:'garamond'; background-color:#3366cc"> Ashitaka, a self-assured teenage warrior, is struck by a fatal curse while defending his tribe from a raging boar-god/demon. He had to get to the western forests in order to escape with his life. Once there, he becomes involved in a valiant campaign against the forest by people. The valiant young princess Princess Mononoke, who was reared by a wolf-god, is opposed by the gun-wielding, ambitious Lady Eboshi and her devoted clan. Ashitaka attempts to stop the flow of blood while seeing the good on both sides. Both sides view him as helping the enemy, hence they are hostile toward each other as a result. </p>
+    <br>
+    <br>
+  <li style="color:#003366; text-align:justify; font-size:150%; font-family:'verdana'"> Spirited Away</li>
+  <br>
+<br>
+<img src="https://i.pinimg.com/originals/a7/ec/1d/a7ec1da2fc45bad98b39ea85f66618dd.gif" alt="Spirited-away" style="width:700px;height:300px;border-radius: 8px;">
+
+<p style="color:#FFE4E1; text-align:justify; font-size:150%; font-family:'garamond'; background-color:#3366cc">The fanciful adventures of a ten-year-old girl named Chihiro, who discovers a secret world when she and her family get lost and venture through a hillside tunnel. When her parents undergo a mysterious transformation, Chihiro must fend for herself as she encounters strange spirits, assorted creatures and a grumpy sorceress who seeks to prevent her from returning to the human world. </p>
+
+<br>
+<br>
+  <li style="color:#003366; text-align:justify; font-size:150%; font-family:'verdana'"> Train To Busan</li>
+  <br>
+  <br>
+
+  <img src="https://images.gr-assets.com/hostedimages/1511114407ra/24483979.gif" alt="Train To Busan" style="width:700px;height:300px;border-radius: 8px;">
+  <br>
+  <br>
+  <p style="color:white; text-align:justify; font-size:150%; font-family:'garamond'; background-color:#3366cc"> A father named Sok-woo, who doesn't have much time for his daughter Soo-ahn, is leaving Seoul for Busan on the KTX, a quick train. However, as they go, the apocalypse arrives, turning the majority of people on Earth into flesh-hungry zombies. The passengers battle one other and the zombies for their families' lives as the KTX speeds toward Busan.</p>
+    <br>
+    <br>
+</ul>  
+
+<p style="color: darkblue; text-align: center; font-size: 150%;">I created this site as part of IML470.</p>
+</div>
+
+<div id="Favourite Songs" class="tabcontent">
+    <h3 style="color:#000099; text-align:justify; font-size:150%; font-family:'verdana'">Favourite Songs</h3>
+    
+    <ul>
+        <li style="list-style-type: square; color:#000099; text-align:justify; font-size:150%; font-family:'verdana'"> YOASOBI - Monster</li>
+    </ul>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dy90tA3TT1c?si=wq2wcBjSk7nf6x3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <ul>
+        <li style="list-style-type: square; color:#000099; text-align:justify; font-size:150%; font-family:'verdana'">Anna Blue - Silent Scream</li>
+    </ul>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oO3fmprn3uI?si=862zEGXGmxF9p8nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <ul>
+        <li style="list-style-type: square; color:#000099; text-align:justify; font-size:150%; font-family:'verdana'"> Humood - Kun Anta</li>
+    </ul>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qKVW_wJs91Q?si=3ZtrJauavjK_fC9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    <br>
+    <p style="color: darkblue; text-align: center; font-size: 150%;">I created this site as part of IML470.</p>
+</div>
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+<br>
+<br>
+<!-- Contact Me -->
+<br>
+<div class="contact">
+    <hr color="#000066" width="20%">
+    <p align="center"><font face="garamond" color="#000066" size="6">Contact Me</font></p>
+    <hr color="#000066" width="20%">
+
+    <!-- Contact Form -->
+    <br><br><br>
+    <form name="f1" id="contact-form">
+        <table align="center" cellpadding="10" cellspacing="15" border="1">
+            <tr>
+                <td>
+                    <input type="text" name="first-name" placeholder="First Name" required="required">
+                </td>
+                <td>
+                    <input type="text" name="second-name" placeholder="Second Name" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="Email" placeholder="Email" required="required">
+                </td>
+                <td>
+                    <input type="text" name="Subject" placeholder="Subject" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <textarea name="message" placeholder="Enter Your Message" required="required" minlength="5" maxlength="100"></textarea>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="submit" name="contact-submit" form="contact-form" value="Send">
+                </th>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html> 
